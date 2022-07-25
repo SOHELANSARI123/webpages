@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container:hover{
+    border-color: green;
+}
+table{
+    width:600px;
+    
+}
+th{
+    background-color: grey;
+}
+
+th,td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#data {
+    margin-bottom: 10px;
+}
+#add{
+    background-color: rgb(41, 236, 41);
+}
+#rem{
+    background-color: rgb(243, 49, 49);
+}
+
+#data input, button {
+    padding: 10px;
+    width: 90px;
+}
